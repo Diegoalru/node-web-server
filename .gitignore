@@ -1,2 +1,40 @@
+# Dependencies
 node_modules/
+
+# Environment
 .env
+
+# JetBrains
+.idea/
+*.iml
+*.ipr
+*.iws
+.project
+.settings/
+.atlassian-bitbucket.js
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# Runtime
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage
+coverage/
+
+# Build
+dist/
+build/
+
+# Temporary
+.cache/
+tmp/
+temp/
+
+# Agents
+AGENTS.md
