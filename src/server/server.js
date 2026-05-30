@@ -10,7 +10,7 @@ const startServer = (options) => {
     app.get('/', (req, res) => {
         const indexPath = path.join(
           __dirname,
-          `../../../${publicPath}`,
+          `../../${publicPath}`,
           "index.html"
         );
 
